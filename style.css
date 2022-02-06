@@ -6,35 +6,38 @@
   user-select: none;
   /* font-family: 'Rakkas', cursive; */
 }
-.bi-brightness-alt-high {
+.zikr {
     cursor: pointer;
+    width: 30px !important;
+    display: inline-block;
 }
+
 .back {
   border-radius: 20px;
   width: 90%;
   background-color: #03071e;
   margin: auto;
 }
-.dark .back {
+.morning .back {
   background-color: #0c63e7;
 }
 
-.dark header {
+.morning header {
   background-color: #ffae03;
   color: black;
 }
 
-.dark .container .one {
+.morning .container .one {
   background-color: white;
 }
-.dark .one p {
+.morning .one p {
   color: black;
 }
-.dark .btns {
+.morning .btns {
   background-color: black;
   color: white;
 }
-.dark .btns p {
+.morning .btns p {
   color: white;
 }
 body {
@@ -328,3 +331,23 @@ section .container {
     }
   }
   
+  .night {
+    display: none;
+    position: relative;
+    top : 0;
+    bottom : 0;
+    left : 0;
+    right: 0;
+  }
+
+  .morning {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
